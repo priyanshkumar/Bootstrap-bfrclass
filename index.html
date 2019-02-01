@@ -4,25 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
-    <title>Nootstrap example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap example</title>
 </head>
 <body>
     <div class="container-fluid">
-        <section id="hero" class="row">
-            <div class="col-12">
+        <section id="hero" class="row d-flex align-items-center">
+            <div class="col-12 text-center">
                 <h1>
                     BOOTSTRAP IS HERE
                 </h1>
                 <h4>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </h4>
-                <a href="" class="btn btn-oitline-light btn-large btn-info my-3"></a>
+                <a href="" class="btn btn-outline-light btn-large btn-info my-3">CLICK ME</a>
             </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="row">
+            <div class="jumbotron my-0">
+                <h1 class="display-3">Bootstrap 4 is great</h1>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta commodi necessitatibus numquam ut neque incidunt aut eveniet voluptate eum consectetur!</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ut quam totam saepe!</p>
+                <a href="" class="btn btn-warning btn-large">HERE WE GO</a>
+            </div>
+        </section>
+        <section class="row my-2">
+            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                <h3 class="font-weight-bold">Bootstrap</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi quas neque quam nihil quidem, pariatur voluptatibus aperiam rerum explicabo, nostrum fugit assumenda ad animi.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                <h3 class="font-weight-bold">Bootstrap</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi quas neque quam nihil quidem, pariatur voluptatibus aperiam rerum explicabo, nostrum fugit assumenda ad animi.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 mx-auto text-center">
+                <h3 class="font-weight-bold">Bootstrap</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi quas neque quam nihil quidem, pariatur voluptatibus aperiam rerum explicabo, nostrum fugit assumenda ad animi.</p>
+            </div>
+        </section>
+        <section class="row d-flex align-items-center">
+            <div class="order-sm-2 order-md-1 col-xs-12 col-sm-12 col-md-8 text-center">
+                <h2 class="font-weight-bold">About Me</h2>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto, voluptate beatae vel laudantium ex, blanditiis eligendi veniam aspernatur aliquid repellat, deserunt qui repudiandae quaerat? Quaerat illo illum libero laudantium quo ullam aspernatur doloremque deserunt odit maxime iusto debitis ratione id placeat quisquam accusantium provident est numquam vitae soluta sapiente recusandae, rerum repellat similique? Recusandae, exercitationem. Voluptatibus eos officia vero at laudantium itaque sit placeat eaque ut harum, dolore necessitatibus?</p>
+            </div>
+            <div class="order-sm-1 order-md-2 col-12 col-sm-12 col-md-4 text-center"></div>
+                <div class="about-card rounded my-2">
+                    <img class="sec4" src="./images/hero.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h4 class="card-title">Priyansh</h4>
+                        <p class="card-text">Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </div>
 </body>
